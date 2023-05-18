@@ -1,10 +1,13 @@
 
 
+
+let tot = 0;
+let number = 0;
+
 for (let i = 0; i < 10; i++) {
     let inputUser = prompt("Inserisci Numero " + i);
-    console.log("Risposta alla domanda " + i + inputUser);
+    number = parseInt(inputUser);
+
   }
-  
-  if(inputUser){
-    console.log(inputUser + i);
-  }
+
+  console.log("la somma totale dei numeri inseriti è: " + number + tot );
